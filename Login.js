@@ -1,8 +1,6 @@
 const Form = document.getElementById("form");
 const loginButton = document.getElementById("btn");
 
-
-// When the login button is clicked, the following code is executed
 loginButton.addEventListener("click", (e) => {
     
     e.preventDefault();

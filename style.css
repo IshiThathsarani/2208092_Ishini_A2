@@ -41,9 +41,7 @@ form{
 }
 
 #login{
-    width: 8%;
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
-    background-color: rgb(185, 236, 236);
 }

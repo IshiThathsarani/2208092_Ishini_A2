@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body>
     <h2>New User</h2>
+    <p>If you are a new user please enter your user name and password.</p>
 
     <form>
-
-        <button 
+        <input type ="text" name="Username" placeholder="Username" class="fm" id="UN">
+        <br><br>
+        <input type ="password" name="Password" placeholder="Password" class="fm" id="PW">
+        <br><br>
+        <button id="CN"
             style="padding: 10px; 
             border-radius: 10px;
-            font-weight: bold; "> Create User</button>
+            font-weight: bold; " onclick="newuser()"> Create User</button>
         <br> <br>
         <button id="SO"
             style="padding: 10px; 
@@ -28,6 +33,10 @@
         document.getElementById("SO").onclick = function(){
             location.href="SignIn.html"
         }
+        document.getElementById("CN").onclick = function(){
+            alert("You have successfully create a user.");
+        }
+        
     </script>
 </body>
 </html>

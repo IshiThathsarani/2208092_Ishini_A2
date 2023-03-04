@@ -7,7 +7,9 @@ loginButton.addEventListener("click", (e) => {
     const username = Form.Username.value;
     const password = Form.Password.value;
 
-    if (username === "user" && password === "123") {
+    // condition to check the validate values
+    
+    if (username === "user" && password === "123") { 
         alert("You have successfully logged in.");
         location.href="home.html";
     } else {
